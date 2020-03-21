@@ -1,0 +1,36 @@
+@import 'assets/styles/css-defaults';
+
+.cc-editor-ctrls-container {
+  display: flex;
+  > button {
+    flex: 1;
+  }
+}
+
+.cc-bold-btn {
+  &::after {
+    content: 'B';
+    font-weight: bold;
+  }
+}
+
+.cc-italics-btn {
+  &::after {
+    content: 'I';
+    font-style: italic;
+  }
+}
+
+.cc-underline-btn {
+  &::after {
+    content: 'U';
+    text-decoration: underline;
+  }
+}
+
+.cc-link-btn {
+  &::after {
+    content: url("./assets/icons/link-icon.png");
+    display: inline-block;
+  }
+}

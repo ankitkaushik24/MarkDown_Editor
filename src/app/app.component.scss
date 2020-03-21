@@ -1,0 +1,19 @@
+
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.cc-markdown-editor-container, app-preview-pane {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+
+  textarea {
+    flex-grow: 1;
+    padding: 10px;
+  }
+}

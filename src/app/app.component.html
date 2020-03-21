@@ -1,0 +1,8 @@
+<div class="cc-markdown-editor-container">
+  <textarea ccMarkDown [value]="defaultText" (valueChange)="onValueChange($event)"></textarea>
+</div>
+
+<app-preview-pane>
+  <section [innerHtml]="templateMarkup"></section>
+</app-preview-pane>
+
